@@ -101,6 +101,16 @@ Auf dem rechten Feld (**Angriffs-Radar**) wird per Klick auf den aktuellen Gegne
 
 - Die lokale IP-Adresse des Hosts kann sich bei jedem Neustart des Routers oder erneuten WLAN-Verbindungsaufbau ändern (typisch bei per DHCP vergebenen Adressen). Falls das Beitreten plötzlich nicht mehr funktioniert, zuerst prüfen, ob sich die IP des Hosts geändert hat.
 
+  ## Unterstützte Sprachen
+
+Das Spiel ist vollständig lokalisiert und unterstützt 26 Sprachen:
+
+* **Mitteleuropa & Westen:** Deutsch, English, Français, Nederlands
+* **Südeuropa:** Español, Italiano, Português, Ελληνικά, Türkçe
+* **Osteuropa & Balkan:** Polski, Čeština, Slovenčina, Magyar, Română, Русский, Українська, Български, Hrvatski, Српски
+* **Nordeuropa:** Svenska, Dansk, Norsk, Suomi
+* **Baltikum:** Lietuvių, Latviešu, Eesti
+
 ## Bekannte Einschränkungen
 
 - Kein Wiederverbinden nach Verbindungsabbruch (ein getrennter Spieler scheidet dauerhaft aus der laufenden Partie aus)
