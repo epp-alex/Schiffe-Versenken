@@ -1,6 +1,6 @@
 # 🚢 Multiplayer Schiffe Versenken (2–4 Spieler)
 
-*[English version*](file:///C:/Users/Alex/Downloads/README.en.md)
+[*English version*](file:///C:/Users/Alex/Downloads/README.en.md)
 
 Ein netzwerkfähiges "Schiffe versenken" für 2 bis 4 Spieler im lokalen Netzwerk (LAN), gebaut mit **Python** und **PyQt5**. Ein Spieler hostet die Partie, die anderen treten per IP/Port bei – reines TCP-Socket-Netzwerk, keine externen Server oder Accounts nötig.
 
@@ -34,9 +34,9 @@ Für jede Version stehen auf der [Releases-Seite](file:///C:/Users/releases) fer
 
 | Plattform | Datei |
 | - | - |
-| Windows | `Schiffe-Windows.exe` |
-| macOS | `Schiffe-macOS.dmg` |
-| Linux | `Schiffe-Linux` |
+| Windows | `Schiffe.exe` |
+| macOS | `Schiffe.dmg` |
+| Linux | `Schiffe` |
 
 
 > **Hinweis (Windows/macOS):** Da die Programme nicht kommerziell signiert sind, kann beim ersten Start eine Sicherheitswarnung erscheinen ("Windows hat den PC geschützt" / "nicht verifizierter Entwickler"). Einfach über "Weitere Informationen → Trotzdem ausführen" (Windows) bzw. Rechtsklick → "Öffnen" (macOS) bestätigen.
