@@ -101,6 +101,16 @@ On the right-hand board (**attack radar**), clicking fires at the current oppone
 
 - The host's local IP address can change whenever the router restarts or Wi-Fi reconnects (typical for DHCP-assigned addresses). If joining suddenly stops working, check first whether the host's IP has changed.
 
+  ## Supported Languages
+
+The game is fully localized and supports 26 languages:
+
+* **Western & Central Europe:** English, German (Deutsch), French (Français), Dutch (Nederlands)
+* **Southern Europe:** Spanish (Español), Italian (Italiano), Portuguese (Português), Greek (Ελληνικά), Turkish (Türkçe)
+* **Eastern Europe & Balkans:** Polish (Polski), Czech (Čeština), Slovak (Slovenčina), Hungarian (Magyar), Romanian (Română), Russian (Русский), Ukrainian (Українська), Bulgarian (Български), Croatian (Hrvatski), Serbian (Српски)
+* **Nordic:** Swedish (Svenska), Danish (Dansk), Norwegian (Norsk), Finnish (Suomi)
+* **Baltic:** Lithuanian (Lietuvių), Latvian (Latviešu), Estonian (Eesti)
+
 ## Known limitations
 
 - No reconnecting after a dropped connection (a disconnected player is permanently eliminated from the running game)
