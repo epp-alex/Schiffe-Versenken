@@ -1,6 +1,6 @@
 # 🚢 Multiplayer Battleship (2–4 Players)
 
-*[Deutsche Version*](file:///C:/Users/Alex/Downloads/README.md)
+[🇩🇪 Deutsche Version](README.md)
 
 A network-enabled "Battleship" game for 2 to 4 players over a local network (LAN), built with **Python** and **PyQt5**. One player hosts the game, the others join via IP/port – plain TCP socket networking, no external servers or accounts required.
 
