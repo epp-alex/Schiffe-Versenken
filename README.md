@@ -1,6 +1,6 @@
 # 🚢 Multiplayer Schiffe Versenken (2–4 Spieler)
 
-[*English version*](file:///C:/Users/Alex/Downloads/README.en.md)
+*[English version*](file:///C:/Users/Alex/Downloads/README.en.md)
 
 Ein netzwerkfähiges "Schiffe versenken" für 2 bis 4 Spieler im lokalen Netzwerk (LAN), gebaut mit **Python** und **PyQt5**. Ein Spieler hostet die Partie, die anderen treten per IP/Port bei – reines TCP-Socket-Netzwerk, keine externen Server oder Accounts nötig.
 
