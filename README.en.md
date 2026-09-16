@@ -111,6 +111,9 @@ The game is fully localized and supports 26 languages:
 * **Nordic:** Swedish (Svenska), Danish (Dansk), Norwegian (Norsk), Finnish (Suomi)
 * **Baltic:** Lithuanian (Lietuvių), Latvian (Latviešu), Estonian (Eesti)
 
+  <img width="1102" height="682" alt="Screenshot 2026-09-16 220250" src="https://github.com/user-attachments/assets/bfe81652-f87b-49c5-8988-6494e83b922f" />
+
+
 ## Known limitations
 
 - No reconnecting after a dropped connection (a disconnected player is permanently eliminated from the running game)
