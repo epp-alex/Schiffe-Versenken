@@ -111,6 +111,9 @@ Das Spiel ist vollständig lokalisiert und unterstützt 26 Sprachen:
 * **Nordeuropa:** Svenska, Dansk, Norsk, Suomi
 * **Baltikum:** Lietuvių, Latviešu, Eesti
 
+  <img width="1102" height="682" alt="Screenshot 2026-09-16 220250" src="https://github.com/user-attachments/assets/ef3e113c-43c2-4462-9672-5cf5b70e5a41" />
+
+
 ## Bekannte Einschränkungen
 
 - Kein Wiederverbinden nach Verbindungsabbruch (ein getrennter Spieler scheidet dauerhaft aus der laufenden Partie aus)
