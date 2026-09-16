@@ -111,8 +111,7 @@ Auf dem rechten Feld (**Angriffs-Radar**) wird per Klick auf den aktuellen Gegne
 
 ## Lizenz
 
-MIT License – siehe [LICENSE](file:///C:/Users/Alex/Downloads/LICENSE).
-
+MIT License – siehe [LICENSE](LICENSE)
 
 ## Beiträge
 
