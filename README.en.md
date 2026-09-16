@@ -111,7 +111,7 @@ On the right-hand board (**attack radar**), clicking fires at the current oppone
 
 ## License
 
-MIT License – see [LICENSE](file:///C:/Users/Alex/Downloads/LICENSE).
+MIT License – see [LICENSE](LICENSE)
 
 ## Contributing
 
