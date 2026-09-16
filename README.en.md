@@ -34,9 +34,9 @@ Ready-to-run programs are available for every release on the [Releases page](fil
 
 | Platform | File |
 | - | - |
-| Windows | `Schiffe-Windows.exe` |
-| macOS | `Schiffe-macOS.dmg` |
-| Linux | `Schiffe-Linux` |
+| Windows | `Schiffe.exe` |
+| macOS | `Schiffe.dmg` |
+| Linux | `Schiffe` |
 
 
 > **Note (Windows/macOS):** Since these builds aren't commercially signed, you may see a security warning on first launch ("Windows protected your PC" / "unidentified developer"). Just confirm via "More info → Run anyway" (Windows) or right-click → "Open" (macOS).
