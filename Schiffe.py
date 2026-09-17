@@ -2839,8 +2839,47 @@ class SchiffeVersenkenApp(QMainWindow):
                 "color: #c62828; font-weight: bold; font-size: 14px;"
             )
 
+    def closeEvent(self, event):
+        """Schließt beim Beenden des Fensters alle aktiven Sockets sauber.
+
+        Wichtig v.a. unter macOS: Wird ein Socket nicht explizit mit
+        shutdown()/close() beendet, bleibt der Port dort oft länger im
+        Zustand TIME_WAIT hängen als unter Windows/Linux - ein erneuter
+        Start (z.B. erneut als Host auf demselben Port) kann dann
+        fehlschlagen, bis das Betriebssystem den Port von selbst freigibt.
+        """
+        sockets_to_close = []
+
+        if self.client_socket is not None:
+            sockets_to_close.append(self.client_socket)
+
+        sockets_to_close.extend(self.client_connections.values())
+
+        for sock in sockets_to_close:
+            try:
+                sock.shutdown(socket.SHUT_RDWR)
+            except OSError:
+                pass  # Verbindung war evtl. schon getrennt - kein Problem
+            try:
+                sock.close()
+            except OSError:
+                pass
+
+        if self.server_socket is not None:
+            try:
+                self.server_socket.close()
+            except OSError:
+                pass
+
+        event.accept()
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    # macOS-Fix: Der native "Aqua"-Style ignoriert bei normalen QPushButtons
+    # häufig Stylesheet-Vorgaben wie background-color (z.B. für Treffer/
+    # Wasser-Markierungen auf dem Spielfeld). Fusion ist plattformunabhängig
+    # und respektiert Stylesheets zuverlässig auf allen drei Betriebssystemen.
+    app.setStyle("Fusion")
     win = SchiffeVersenkenApp()
     win.show()
     sys.exit(app.exec_())
